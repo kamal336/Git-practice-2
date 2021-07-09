@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+ width="1300" height="1300" viewBox="-650 -650 1300 1300">
+<defs>
+ <path id="k" stroke="blue" stroke-width="3"
+ d="M0,0 h200 a200,200 0 1,0 -40,-150 z" />
+
+ <filter id="s" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0.33" in="SourceGraphic" />
+ </filter>
+  <filter id="s19" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0.8" in="SourceGraphic" />
+ </filter>
+ <filter id="s1" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0.64" in="SourceGraphic" />
+ </filter>
+ <filter id="s27" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0.51" in="SourceGraphic" />
+ </filter>
+ <filter id="s2" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0.41" in="SourceGraphic" />
+ </filter>
+ <filter id="s3" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0.26" in="SourceGraphic" />
+ </filter>
+ <filter id="s43" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0.3" in="SourceGraphic" />
+ </filter>
+ <filter id="s4" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0.17" in="SourceGraphic" />
+ </filter>
+
+ <filter id="s41" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0.13" in="SourceGraphic" />
+ </filter>
+ <filter id="s5" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0.11" in="SourceGraphic" />
+ </filter>
+ <filter id="s6" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0.09" in="SourceGraphic" />
+ </filter>
+ <filter id="s687" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0.0687" in="SourceGraphic" />
+ </filter>
+ <filter id="s55" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0.055" in="SourceGraphic" />
+ </filter>
+ <filter id="s44" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0.044" in="SourceGraphic" />
+ </filter>
+ <filter id="s35" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0.035" in="SourceGraphic" />
+ </filter>
+ <filter id="s0" filterUnits="objectBoundingBox"
+          x="-0.25" y="-0.25" width="1.5" height="1.5">
+    <feColorMatrix type="saturate" values="0" in="SourceGraphic" />
+ </filter>
+
+  <mask id="maske">
+   <rect x="-500" y="-500" width="1600" height="1600" fill="#fff" />
+   <use xlink:href="#k" fill="#000" />
+   <!--use xlink:href="#k" x="0" y="0" transform="rotate(-30)" fill="#000" /-->
+   <use xlink:href="#k" transform="rotate(-30)" fill="#000" />
+  </mask>
+ </defs>
+ <g id="schirm">
+  <use fill="red" xlink:href="#k"  opacity="1"/>
+  <use transform="rotate(-30)" fill="hsl(30, 100%, 50%)" xlink:href="#k" />
+  <use transform="rotate(-60)" fill="hsl(60, 100%, 50%)" xlink:href="#k" />
+  <use transform="rotate(-90)" fill="hsl(90, 100%, 50%)" xlink:href="#k" />
+  <use transform="rotate(-120)" fill="hsl(120, 100%, 50%)" xlink:href="#k" />
+  <use transform="rotate(-150)" fill="hsl(150, 100%, 50%)" xlink:href="#k" />
+  <use transform="rotate(-180)" fill="hsl(180, 100%, 50%)" xlink:href="#k" />
+  <use transform="rotate(-210)" fill="hsl(210, 100%, 50%)" xlink:href="#k" />
+  <use transform="rotate(-240)" fill="hsl(240, 100%, 50%)" xlink:href="#k" />
+  <use transform="rotate(90)" fill="hsl(270, 100%, 50%)" xlink:href="#k" />
+  <g mask="url(#maske)">
+  <use transform="rotate(60)" fill="hsl(300, 100%, 50%)" xlink:href="#k" />
+  <use transform="rotate(30)" fill="hsl(330, 100%, 50%)" xlink:href="#k" opacity="1"/>
+ </g></g>
+ <g id="schirme" opacity="1">
+ <use transform="scale(0.8)" filter="url(#s19)" xlink:href="#schirm" />
+ <use transform="scale(0.64)" filter="url(#s1)" xlink:href="#schirm" />
+ <use transform="scale(0.512)" filter="url(#s27)" xlink:href="#schirm" />
+ <use transform="scale(0.4096)" filter="url(#s2)" xlink:href="#schirm" />
+ <use transform="scale(0.3277)" filter="url(#s)" xlink:href="#schirm" />
+ <use transform="scale(0.2621)" filter="url(#s3)" xlink:href="#schirm" />
+ <use transform="scale(0.2097)" filter="url(#s43)" xlink:href="#schirm" />
+ <use transform="scale(0.1678)" filter="url(#s4)" xlink:href="#schirm" />
+ <use transform="scale(0.1342)" filter="url(#s41)" xlink:href="#schirm" />
+ <use transform="scale(0.1074)" filter="url(#s5)" xlink:href="#schirm" />
+ <use transform="scale(0.0859)" filter="url(#s6)" xlink:href="#schirm" />
+ <use transform="scale(0.0687)" filter="url(#s687)" xlink:href="#schirm" />
+ <use transform="scale(0.055)" filter="url(#s55)" xlink:href="#schirm" />
+ <use transform="scale(0.044)" filter="url(#s44)" xlink:href="#schirm" />
+ <use transform="scale(0.035)" filter="url(#s35)" xlink:href="#schirm" />
+ <use transform="scale(0.028)" filter="url(#s0)" xlink:href="#schirm" />
+ </g>
+</svg>
