@@ -90,4 +90,25 @@ form label{
     margin-bottom: 6px;
 }
 
+.first-div{
+    width: 500px;
+    height: 400px;
+    background-color: turquoise;
+    position: relative;
+}
 
+.second-div{
+    background-color: tomato;
+    width: 250px;
+    height: 180px;
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    transition:3s;
+    transition-delay: 2s;
+}
+
+.second-div:hover{
+  
+  transform:scale(1.4) rotate(180deg) translate(0,40px);
+}
