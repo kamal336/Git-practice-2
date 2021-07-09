@@ -19,5 +19,41 @@ form label{
 
 }
 
+.main-div{
+    background-color: aquamarine;
+     width: 400px;
+     height: 300px;
+     overflow: scroll;
+     overflow-x: hidden;
+     padding: 10px;
+}
 
+.sub-div{
+    background-color: aqua;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.media{
+    position: relative;
+}
+
+
+
+.media-text{
+    position: absolute;
+    visibility: hidden;
+    width: 100px;
+    background-color: rgb(12, 148, 118);
+    padding: 8px;
+    border-radius: 4px;
+    left: 20px;
+    top: 20px;
+    color: white;
+}
+
+.media:hover .media-text{
+    visibility: visible;
+    
+}
 
