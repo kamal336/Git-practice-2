@@ -57,3 +57,29 @@ form label{
     
 }
 
+.div-1{
+     /* display: none; */
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+}
+
+.div-2{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(204, 0, 255);
+}
+
+.div-3{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(68, 0, 255);
+  /* visibility: hidden; */
+}
+.div-4{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(0, 255, 34);
+}
+
+
