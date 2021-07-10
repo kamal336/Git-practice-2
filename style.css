@@ -114,3 +114,104 @@ form label{
   width: 350px;
   transform: scale(1.1) rotate(360deg) translate(70px,80px);
 }
+
+.field{
+
+    border: 2px solid rebeccapurple;
+    
+}
+
+.bat{
+    transition: transform 1s;
+}
+
+.field:hover .bat{
+    transform: rotate(-60deg);
+  
+}
+
+.ball{
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.anim-field{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(23, 24, 22);
+}
+
+.anim-ball{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(221, 49, 192);
+    border-radius: 50%;
+    animation: sliding 3s ease  5;
+    position: relative;
+}
+
+@keyframes sliding {
+  0%{
+        background-color: rgb(204, 43, 15);
+        left: 0;
+    }
+   25%{
+        background-color: rgb(21, 209, 46);
+       left: 350px;
+       top: 0;
+    }
+    50%{
+        background-color: yellow;
+        left: 350px;
+        top: 250px;
+    }
+75%{
+    background-color: tomato;
+    left: 0px;
+    top: 250px;
+}
+100%{
+    background-color: turquoise;
+    left: 0;
+    top: 0;
+}
+}
+
+.anim-field-1{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(81, 97, 64);
+    margin-top: 20px;
+}
+
+.anim-ball-1{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(221, 49, 192);
+    border-radius: 50%;
+    animation: sliding-1 3s linear 5;
+    position: relative;
+}
+
+
+@keyframes sliding-1 {
+    0%{ top: 0;
+        left: 0;
+    }50%{
+        background-color: turquoise;
+        transform: scale(1.2);
+        top: 260px;
+        left: 180px;
+    }
+    100%{
+        left: 350px;
+        top: 0;
+    }
+}
+
+.anim-ball{
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
