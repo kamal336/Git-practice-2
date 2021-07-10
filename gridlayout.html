@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+
+    <style>
+     .grid-container{
+         display: grid;
+         grid-template-columns: auto auto auto auto auto auto auto;
+         grid-gap: 10px;
+     }
+
+     .item-1{
+         background-color: rgb(12, 49, 170);
+         text-align: center;
+         padding: 20px;
+         color: white;
+         font-weight: bold;
+         font-size: 1.3rem;
+         border-radius: 15px;
+     }
+
+     .date{
+         background-color: rgb(96, 132, 252);
+         text-align: center;
+         padding: 20px;
+         color: white;
+         font-weight: bold;
+         font-size: 1.3rem;
+         border-radius: 15px;
+     }
+
+     .day{
+         background-color: rgb(20, 16, 241);
+         text-align: center;
+         padding: 20px;
+         color: white;
+         font-weight: bold;
+         font-size: 1.3rem;
+         border-radius: 15px;
+         background-image: linear-gradient(90deg,teal,blue);
+     }
+
+     .calender-title{
+         background-color: turquoise;
+         padding: 10px;
+        text-align: center;
+        color: white;
+         font-weight: bold;
+         font-size: 1.3rem;
+         border-radius: 15px;
+         background-image: linear-gradient(45deg,teal,rgb(48, 111, 184),rgb(72, 197, 135),tomato);
+         margin-bottom: 10px;
+     }
+
+     .holiday{
+         background-color: rgb(20, 16, 241);
+         text-align: center;
+         padding: 20px;
+         color: rgb(245, 46, 46);
+         font-weight: bold;
+         font-size: 1.3rem;
+         border-radius: 15px;
+         background-image: linear-gradient(90deg,rgb(156, 235, 235),rgb(170, 170, 231));
+     }
+
+     
+     .holiday-1{
+         background-color: rgb(180, 221, 223);
+         text-align: center;
+         padding: 20px;
+         color: rgb(245, 46, 46);
+         font-weight: bold;
+         font-size: 1.3rem;
+         border-radius: 15px;
+     }
+    </style>
+</head>
+<body>
+    <div class="calender-title"><h1>CALENDER</h1></div>
+    <div class="grid-container">
+        <div class="holiday">Sun</div>
+        <div class="day">Mon</div>
+        <div class="day"">Tues</div>
+        <div class="day">Wed</div>
+        <div class="day">Thurs</div>
+        <div class="day">Fri</div>
+        <div class="day">Sat</div>
+        <div class="holiday-1">29</div>
+        <div class="date">30</div>
+        <div class="item-1">1</div>
+        <div class="item-1">2</div>
+        <div class="item-1">3</div>
+        <div class="item-1">4</div>
+        <div class="item-1">5</div>
+        <div class="holiday-1">6</div>
+        <div class="item-1">7</div>
+        <div class="item-1">8</div>
+        <div class="item-1">9</div>
+        <div class="item-1">10</div>
+        <div class="item-1">11</div>
+        <div class="item-1">12</div>
+        <div class="holiday-1">13</div>
+        <div class="item-1">14</div>
+        <div class="item-1">15</div>
+        <div class="item-1">16</div>
+        <div class="item-1">17</div>
+        <div class="item-1">18</div>
+        <div class="item-1">19</div>
+        <div class="holiday-1">20</div>
+        <div class="item-1">21</div>
+        <div class="item-1">22</div>
+        <div class="item-1">23</div>
+        <div class="item-1">24</div>
+        <div class="item-1">25</div>
+        <div class="item-1">26</div>
+        <div class="holiday-1">27</div>
+        <div class="item-1">28</div>
+        <div class="item-1">29</div>
+        <div class="item-1">30</div>
+        <div class="item-1">31</div>
+        <div class="date">1</div>
+        <div class="date">2</div>
+    </div>
+</body>
+</html>
